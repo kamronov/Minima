@@ -11,7 +11,6 @@ body {
 .container {
   max-width: 1100px;
   margin: 0 auto;
-  background-color: rgb(215, 128, 128);
 }
 
 ul {
@@ -104,4 +103,77 @@ header {
   font-size: 24px;
   line-height: 32px;
   text-align: center;
+}
+
+.slayder {
+  padding-top: 105px;
+}
+
+.slayder__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 53px;
+  text-align: center;
+  color: #333333;
+}
+
+.testimotial {
+  padding-top: 75px;
+  position: relative;
+  overflow: hidden;
+}
+
+.testimotial .slide {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100% !important;
+}
+
+.slide p {
+  margin-top: 40px;
+  max-width: 635px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: #666666;
+}
+
+.carusel__ava {
+  width: 88px;
+  height: 88px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.slayder__footer {
+  margin-top: 32px;
+}
+.slayder__footer b {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #1D1D1D;
+}
+.slayder__footer h6 {
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #4F4F4F;
+}
+
+.nav-btn {
+  width: 56px;
+  height: 56px;
+  color: white;
+  background: #0B0A0A;
+  border-radius: 8px;
+}
+
+.nav-btn::after, .nav-btn::before {
+  font-size: 16px;
 }/*# sourceMappingURL=main.css.map */
