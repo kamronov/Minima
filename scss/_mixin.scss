@@ -1,0 +1,25 @@
+@mixin btn {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 10px 32px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 0px;
+    font-style: italic;
+    background-color: transparent;
+}
+
+@mixin list {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    
+}
+
+@mixin mediamix {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    
+}
