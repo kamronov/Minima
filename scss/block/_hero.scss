@@ -1,0 +1,81 @@
+.hero{
+    background-color: black;
+    background-image: url(../../img/HERObannerbg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top 0px right 120px;
+}
+.hero__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.hero__list{
+    padding-top: 126px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+}
+.hero__info{
+    h2{
+        max-width: 549px;
+        color: white;
+        font-size: 48px;
+        line-height: 64px;
+        font-weight: 700;
+        margin-bottom: 26px;
+        span{
+            background-color: yellow;
+            color: black;
+        }
+    }
+    p{
+        max-width: 437px;
+        color: white;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    button{
+        margin-top: 40px;
+        padding: 16px 48px;
+        border-radius: 10px;
+        font-weight: 700;
+        margin-bottom: 60px;
+        transition: all ease 0.8s;
+        &:hover{
+            background-color: crimson;
+            color: white;
+            font-weight: bold;
+        }
+    }
+    a{
+        color: white;
+        font-size: 16px;
+        line-height: 24px;
+        transition: all ease 0.5s;
+        &:hover{
+            color: crimson;
+        }
+        
+    }
+}
+.hero__company{
+    display: flex;
+    justify-content: center;
+    max-width: 531px;
+    margin-top: 40px;
+}
+.company__logo{
+    img{
+        max-width: 130px;
+        max-height: 74px;
+    }
+}
+.hero__banner{
+    img{
+        max-width: 370px;
+        max-height: 537px;
+    }
+}
