@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
@@ -115,7 +115,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 85%;
+  width: 100%;
 }
 
 .hero__info h2 {
@@ -191,7 +191,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 85%;
+  width: 100%;
   margin-bottom: 20px;
 }
 
@@ -221,7 +221,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 85%;
+  width: 100%;
 }
 
 .service__item h4 {
@@ -273,7 +273,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 85%;
 }
 
 .sucsess__banner img {
@@ -389,7 +388,8 @@ header {
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 100% !important;
+  height: 82% !important;
+  border: 1px solid #000;
 }
 
 .slide p {
