@@ -1,0 +1,144 @@
+.info{
+    margin-top: 71px;
+}
+.info__inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.info__about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    margin-bottom: 20px;
+}
+.about__banner{
+    img{
+        max-width: 431px;
+    }
+}
+.about__text{
+    max-width: 554px;
+}
+.about__item{
+    h4{
+        margin-bottom: 44px;
+        font-size: 48px;
+        line-height: 54px;
+        font-weight: 700;
+    }
+    p{  
+        margin-bottom: 44px;
+        font-size: 20px;
+        line-height: 31px;
+        font-weight: 400;
+    }
+}
+.info__service{
+    margin-bottom: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+}
+.service__item{
+    h4{
+        font-size: 48px;
+        line-height: 53px;
+        margin-bottom: 93px;
+        max-width: 447px;
+        font-weight: 700;
+        position: relative;
+        &::after{
+            position: absolute;
+            content: '';
+            width: 121px;
+            height: 1px;
+            bottom: -30px;
+            left: 0;
+            background-color: black;
+        }
+    }
+    p{
+        max-width: 435px;
+        margin-bottom: 32px;
+        font-size: 18px;
+        line-height: 32px;
+    }
+}
+.service__info{
+    display: flex;
+    img{
+        max-width: 52px;
+        max-height: 52px;
+        margin-right: 20px;
+    }
+    h5{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    p{
+        max-width: 399px;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.3%;
+        font-weight: 400;
+    }
+}
+.info__sucsess{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+}
+.sucsess__banner{
+    img{
+        max-width: 700px;
+        max-height: 490px;
+    }
+}
+.sucsess__item{
+    max-width: 441px;
+    h4{
+        margin-bottom: 52px;
+        font-size: 48px;
+        line-height: 53px;
+        font-weight: 700;
+    }
+    p{
+        margin-bottom: 32px;
+        font-size: 16px;
+        line-height: 23px;
+        letter-spacing: 0.3%;
+    }
+
+}
+
+.sucsess__story{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    
+    h5{
+        font-size: 50px;
+        line-height: 65px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    p{
+        cursor: pointer;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        transition: all ease 0.5s;
+        &:hover{
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+}
