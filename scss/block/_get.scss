@@ -75,7 +75,8 @@
     border: none;
     background-color: #1D1D1D;
     border-radius: 8px;
-
+    border: 1px solid #1D1D1D;
+    transition: all ease 0.3s;
     &:hover {
         background-color: white;
         color: #1D1D1D;

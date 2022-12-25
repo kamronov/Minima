@@ -524,6 +524,8 @@ header {
   border: none;
   background-color: #1D1D1D;
   border-radius: 8px;
+  border: 1px solid #1D1D1D;
+  transition: all ease 0.3s;
 }
 .get__send:hover {
   background-color: white;
@@ -544,6 +546,7 @@ header {
 
 .footer {
   padding-top: 80px;
+  padding-bottom: 150px;
   background-color: #000;
   border: 1px solid #000;
 }
