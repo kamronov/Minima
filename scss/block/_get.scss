@@ -1,0 +1,95 @@
+.get {
+    background-image: url(../../img/get_dot.png);
+    background-repeat: no-repeat;
+    background-position: bottom 40% right 40%;
+    padding-bottom: 129px;
+}
+.get__inner {
+    display: flex;
+    justify-content: space-around;
+}
+.get__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 53px;
+}
+
+.get__form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    label {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #4F4F4F;
+        margin-bottom: 8px;
+    }
+}
+
+.get__name {
+    margin-top: 33px;
+    display: flex;
+    input {
+        max-width: 300px;
+        padding: 16px 50px 16px 16px;
+        background: #F7F8F9;
+        border-radius: 8px;
+        border: none;
+    }
+}
+.get__email {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    input {
+        width: 100%;
+        background: #F7F8F9;
+        border-radius: 8px;
+        padding: 16px 50px 16px 16px;
+        border: none;
+    }
+}
+.get__message {
+    margin-top: 24px;
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+    textarea {
+        border:none;
+        background: #F7F8F9;
+        padding-top: 16px;
+        padding-left: 16px;
+    }
+}
+
+.get__send {
+    margin-top: 40px;
+    padding: 16px 48px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    border: none;
+    background-color: #1D1D1D;
+    border-radius: 8px;
+
+    &:hover {
+        background-color: white;
+        color: #1D1D1D;
+        border: 1px solid #1D1D1D;
+    }
+}
+
+.get__banner {
+    display: flex;
+    align-items: center;
+    background-image: url(../../img/Address.png);
+    background-repeat: no-repeat;
+    background-position: bottom 40px right;
+    img {
+        max-width: 100%;
+    }
+}
